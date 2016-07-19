@@ -5,17 +5,9 @@ INSTALL REQUERIMENTS:
 $ pip --version
 pip 1.5.4 from /usr/lib/python2.7/dist-packages (python 2.7)
 
-how to install Pingo:
+how to install requeriments:
 
-$ pip install pingo
-
-how to install PyMata:
-
-$ pip install pymata
-
-how to install pyserial:
-
-$ pip install pyserial
+$ pip install -r requeriments.txt
 
 2- From Github (recommended)
 $ git clone https://github.com/pingo-io/pingo-py.git
