@@ -12,7 +12,7 @@ button_pin.mode = pingo.IN
 
 
 while True:
-	if button_pin.state == pingo.HIGH:
-		led_pin.hi()
-	else:
-		led_pin.lo()
+    if button_pin.state == pingo.HIGH:
+        led_pin.hi()
+    else:
+        led_pin.lo()

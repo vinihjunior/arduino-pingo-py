@@ -1,8 +1,8 @@
 """
-Implementation of a Serial Monitor for reading the value (LOW or HIGH) of a PushButton.
+Implementation of a Serial Monitor 
+for reading the value (LOW or HIGH) of a PushButton.
 
 """
-#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import pingo
 import time
@@ -13,5 +13,5 @@ buttonState = board.pins[2]
 buttonState.mode = pingo.IN
 
 while True:
-	print(buttonState.state) #Serial Monitor 
-	time.sleep(0.05)
+    print(buttonState.state)
+    time.sleep(0.05)

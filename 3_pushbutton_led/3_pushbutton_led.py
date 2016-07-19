@@ -1,11 +1,11 @@
-"""3 Pushbutton 3 led.
+"""
+3 Pushbutton 3 led.
 
 The led comes on when you press the button.
 
 Connections example found on ./3_button.png
 
 """
-#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import pingo
 import sys
