@@ -1,3 +1,5 @@
+INSTALL REQUERIMENTS:
+
 1- From Python PyPI:
 
 $ pip --version
@@ -17,6 +19,7 @@ $ pip install pyserial
 
 2- From Github (recommended)
 $ git clone https://github.com/pingo-io/pingo-py.git
+
 $ python setup.py develop
 
 To use the pingo.io library, you must load the StandartFirmata for Arduino:
